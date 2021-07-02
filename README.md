@@ -3,7 +3,7 @@
 <!-- <br><br><br><br> -->
 
 # Robust pose transfer with dynamic details using neural video rendering framwork
-### [Paper](https://arxiv.org/abs/2106.14132)<br> | [Video](https://www.bilibili.com/video/BV1y64y1C7ge/) 
+### [Paper](https://arxiv.org/abs/2106.14132) | [Video](https://www.bilibili.com/video/BV1y64y1C7ge/) <br>
 Pytorch implementation of our method for high-fidelity human video generation from 2D/2D+3D pose consequence. <br><br>
 
 ## pose transfer with dynamic details
