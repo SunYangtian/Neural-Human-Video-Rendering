@@ -1,0 +1,6 @@
+dominate
+pillow
+opencv-python
+scipy
+torchvision==0.3.0
+tensorboard

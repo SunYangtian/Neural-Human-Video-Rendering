@@ -3,7 +3,7 @@
 <!-- <br><br><br><br> -->
 
 # Robust pose transfer with dynamic details using neural video rendering framwork
-### [Video](https://www.bilibili.com/video/BV1y64y1C7ge/) | [Paper(comming soon)]()<br>
+### [Paper](https://arxiv.org/abs/2106.14132)<br> | [Video](https://www.bilibili.com/video/BV1y64y1C7ge/) 
 Pytorch implementation of our method for high-fidelity human video generation from 2D/2D+3D pose consequence. <br><br>
 
 ## pose transfer with dynamic details
@@ -15,20 +15,6 @@ Pytorch implementation of our method for high-fidelity human video generation fr
 - refine the background during the training
 <p align='center'>  
   <img src='imgs/background.gif' width='600'/>
-</p>
-
-- pose transfer result
-<p align='center'>  
-  <img src='imgs/result1.gif' width='600'/>
-</p>
-
-<p align='center'>  
-  <img src='imgs/result2.gif' width='600'/>
-</p>
-
-- background replacing result
-<p align='center'>  
-  <img src='imgs/result3.gif' width='600'/>
 </p>
 
 ## Prerequisites
@@ -96,6 +82,20 @@ To train successfully, one need to specificy the aforementioned prepared dataset
 - To view training results, please checkout intermediate results in `$checkpoints_dir/$name/web/index.html`.
 If you have tensorflow installed, you can see tensorboard logs in `$checkpoints_dir/$name/logs`.
 
+### More transfer results
+- pose transfer result
+<p align='center'>  
+  <img src='imgs/result1.gif' width='600'/>
+</p>
+
+<p align='center'>  
+  <img src='imgs/result2.gif' width='600'/>
+</p>
+
+- background replacing result
+<p align='center'>  
+  <img src='imgs/result3.gif' width='600'/>
+</p>
 
 ## Acknowledgments
 This code borrows heavily from [pix2pixHD](https://github.com/NVIDIA/pix2pixHD).

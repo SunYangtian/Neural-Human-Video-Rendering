@@ -1,0 +1,16 @@
+python3 pre_train.py \
+	--name uvGenerator_pretrain \
+	--checkpoints_dir /apdcephfs/share_1364276/alyssatan/checkpoints \
+	--gpu_ids 0 \
+	--batchSize 6 \
+	--pose_path /apdcephfs/share_1364276/alyssatan/All/keypoints/ \
+	--mask_path /apdcephfs/share_1364276/alyssatan/All/mask/ \
+	--densepose_path /apdcephfs/share_1364276/alyssatan/All/densepose/ \
+	--no_flip \
+	--instance_feat \
+	--input_nc 3 \
+	--loadSize 512 \
+	--n_blocks_translate 5 \
+	--resize_or_crop resize \
+	--save_epoch_freq 2 \
+	--tf_log \

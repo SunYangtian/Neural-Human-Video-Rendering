@@ -1,0 +1,23 @@
+python pre_train_tex.py \
+	--name 0810_pretrain_3_tex_200 \
+	--gpu_ids 1 \
+	--batchSize 2 \
+	--pose_path /home/sunyangtian/iPER/iPER_1024_label/001/12/openpose_img \
+	--lapalce_path /home/sunyangtian/iPER/iPER_1024_label/001/12/LaplaceProj \
+	--use_laplace \
+	--part_texture_path /home/sunyangtian/iPER/iPER_1024_label/001/12/part_texture \
+	--pose_texture_path /home/sunyangtian/iPER/iPER_1024_label/001/12/Laplace_texture \
+	--texture_path /home/sunyangtian//iPER/iPER_1024_label/001/12/texture.jpg \
+    --TexG part \
+	--use_mask_texture \
+	--n_downsample_global 2 \
+	--n_blocks_global 5 \
+	--ngf_global 64 \
+	--no_flip \
+	--instance_feat \
+	--input_nc 81 \
+	--loadSize 200 \
+	--resize_or_crop resize \
+	--save_epoch_freq 5 \
+	--tf_log \
+	--data_ratio 0.9
